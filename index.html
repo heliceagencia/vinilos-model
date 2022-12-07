@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        #Phantom {
+            width: 100%;
+            height: 100vh;
+        }
+
+    </style>
 </head>
 <body>
-    <p>Y aca el toca discos de vinilo. Perdon Nico no te ilusiones</p>
+    <model-viewer
+    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+    src="./asset/texturas/texturas/Tocadisco.glb" 
+    id="Phantom"
+    ar
+    shadow-intensity="0" 
+    camera-controls 
+    touch-action="pan-y">
+</model-viewer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </body>
 </html>
